@@ -62,37 +62,37 @@ function corpo(){
 
     contadorerros+=1;
     if(contadorerros == 1){
-        forca.style.backgroundImage = "url(img/cabeca.png)";
+        forca.style.backgroundImage = "url(../static/img/cabeca.png)";
 
     }
     if(contadorerros == 2){
-        forca.style.backgroundImage = "url(img/corpo.png)";
+        forca.style.backgroundImage = "url(../static/img/corpo.png)";
         
     }
     if(contadorerros ==3){
-        forca.style.backgroundImage = "url(img/braco1.png)";
+        forca.style.backgroundImage = "url(../static/img/braco1.png)";
         
     }
     if(contadorerros==4){
-        forca.style.backgroundImage = "url(img/braco2.png)";
+        forca.style.backgroundImage = "url(../static/img/braco2.png)";
     }
     if(contadorerros==5){
-        forca.style.backgroundImage = "url(img/perna1.png)";
+        forca.style.backgroundImage = "url(../static/img/perna1.png)";
     }
     if(contadorerros==6){
-        forca.style.backgroundImage = "url(img/perna2.png)";
+        forca.style.backgroundImage = "url(../static/img/perna2.png)";
     }
     if(contadorerros==7){
-        forca.style.backgroundImage = "url(img/olho1.png)";
+        forca.style.backgroundImage = "url(../static/img/olho1.png)";
     }
     if(contadorerros==8){
-        forca.style.backgroundImage = "url(img/olho2.png)";
+        forca.style.backgroundImage = "url(../static/img/olho2.png)";
     }
     if(contadorerros==9){
-        forca.style.backgroundImage = "url(img/boca.png)";
+        forca.style.backgroundImage = "url(../static/img/boca.png)";
     }
     if(contadorerros==10){
-        forca.style.backgroundImage = "url(img/morto.png)";
+        forca.style.backgroundImage = "url(../static/img/morto.png)";
         alert('putz, cê morreu irmão')
     }
 }

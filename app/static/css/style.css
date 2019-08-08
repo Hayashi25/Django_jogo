@@ -83,7 +83,7 @@ aside{
 }
 
 .forca{
-    background-image: url("img/forca.png");
+    background-image: url("/static/img/forca.png");
     background-repeat: no-repeat;
     height: 500px;
     width: 300px;
