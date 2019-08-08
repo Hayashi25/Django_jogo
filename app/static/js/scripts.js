@@ -45,17 +45,12 @@ function ok(){
         paragrafos[i].innerHTML = palavraSeparada[i];
         }
         else {
+         if(digitoLetra.value  != palavraSeparada[i]){
+            corpo();}
         }
     }
     digitoLetra.value = '';
 }
-
-// function enforcamento(){
-//     if (ok() == False){
-//         corpo()
-//     } 
-// }
-
 let contadorerros = 0;
 
 function corpo(){
@@ -108,5 +103,4 @@ function comecar(){
 botaoComecar.onclick = comecar;
 
 botaoOk.onclick = ok;
-
 
